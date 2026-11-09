@@ -1,4 +1,4 @@
-// Parametres de la puce TPU7083
+// Tile parameters of TPU7083 (VERILOG_DEFINES of the sign-off run)
 `define TILE_C 12
 `define TILE_K 1
 `define TILE_G 6
