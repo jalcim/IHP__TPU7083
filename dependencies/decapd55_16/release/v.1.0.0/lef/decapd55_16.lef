@@ -1,0 +1,39 @@
+VERSION 5.7 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO decapd55_16
+  CLASS CORE SPACER ;
+  ORIGIN 0 0 ;
+  FOREIGN decapd55_16 0 0 ;
+  SIZE 7.68 BY 3.78 ;
+  SYMMETRY X Y ;
+  SITE CoreSite ;
+  PIN VDD
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.57 1.23 2.57 3.78 ;
+        RECT 5.11 1.23 6.11 3.78 ;
+        RECT 0.17 2.18 0.43 3.78 ;
+        RECT 7.25 2.18 7.51 3.78 ;
+        RECT 0 3.56 7.68 4 ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.34 0 4.34 1.97 ;
+        RECT 0.17 0 0.43 0.955 ;
+        RECT 7.25 0 7.51 0.955 ;
+        RECT 0 -0.22 7.68 0.22 ;
+    END
+  END VSS
+END decapd55_16
+
+END LIBRARY

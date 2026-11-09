@@ -1,0 +1,7 @@
+* Vue SPICE (mêmes transistors que decapd55_8.cdl, diffusions de l'extraction par le deck LVS KLayout du PDK sg13cmos5l)
+
+.subckt decapd55_8 VDD VSS
+XN0 VSS VDD VSS VSS sg13_lv_nmos w=1.290u l=1.240u ng=2 ad=3.6765e-13 as=3.6765e-13 pd=3.0750e-06 ps=3.0750e-06 m=1
+XP1 VDD VSS VDD VDD sg13_lv_pmos w=1.215u l=1.240u ng=1 ad=2.3085e-13 as=2.3085e-13 pd=1.5950e-06 ps=1.5950e-06 m=1
+XP2 VDD VSS VDD VDD sg13_lv_pmos w=2.430u l=0.430u ng=2 ad=6.9255e-13 as=6.9255e-13 pd=4.7850e-06 ps=4.7850e-06 m=1
+.ends decapd55_8

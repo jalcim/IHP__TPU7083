@@ -1,0 +1,34 @@
+{
+  "name": "TPU7083",
+  "design_type": "D",
+  "technology": "IHP",
+  "unique_id": "7083",
+  "license": "Apache-2.0",
+  "trl": 4,
+  "sealring_x": 2342,
+  "sealring_y": 2308,
+  "repository": "https://github.com/jalcim/IHP__TPU7083",
+  "pdk_version": "7bbb4b5a5b64c446fedc64eacadc33fa65ade276",
+  "process": "SG13CMOS5L",
+  "dependencies": {
+    "bondpad_70x70_5L": { "dependencies": {} },
+    "logo_nebula": { "dependencies": {} },
+    "decapd55_32": { "dependencies": {} },
+    "decapd55_16": { "dependencies": {} },
+    "decapd55_8": { "dependencies": {} }
+  },
+  "tools": {
+    "synthesis": "Yosys",
+    "pnr": "OpenROAD",
+    "flow": "LibreLane 3.0.17",
+    "drc": "KLayout",
+    "lvs": "Netgen"
+  },
+  "top_cell_name": "TPU7083",
+  "release": {
+    "version": "v.1.0.0",
+    "gds": "release/v.1.0.0/gds/TPU7083.gds.gz",
+    "netlist": "release/v.1.0.0/netlist/TPU7083.spice",
+    "doc": "release/v.1.0.0/doc"
+  }
+}

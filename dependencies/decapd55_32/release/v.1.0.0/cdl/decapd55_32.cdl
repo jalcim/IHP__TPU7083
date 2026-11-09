@@ -1,0 +1,7 @@
+* decapd55_32, decap dense SG13CMOS5L, CDL pour le LVS KLayout
+.SUBCKT decapd55_32 VDD VSS
+*.PININFO VDD:B VSS:B
+MN0 VSS VDD VSS VSS sg13_lv_nmos m=1 w=2.480u l=3.310u ng=4
+MP0 VDD VSS VDD VDD sg13_lv_pmos m=1 w=3.495u l=3.310u ng=3
+MP1 VDD VSS VDD VDD sg13_lv_pmos m=1 w=2.330u l=1.465u ng=2
+.ENDS
