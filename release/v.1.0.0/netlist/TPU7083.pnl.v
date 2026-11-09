@@ -18592,7 +18592,7 @@ module TPU7083 (CLK_N_PAD,
  wire \u_tile/u_link_out/_124_ ;
  wire \u_tile/u_link_out/_125_ ;
  wire \u_tile/u_link_out/_126_ ;
- wire \u_tile/u_link_out/invert_group$func$/home/jalcim/rtl-runs/puce7t-sig-dc9d79ee-11081356/rtl/9_link_out.v:112$97.$result[0] ;
+ wire \u_tile/u_link_out/invert_group$func$9_link_out.v:112$97.$result[0] ;
  wire \u_tile/u_link_out/r_out_ready_meta ;
  wire \u_tile/u_link_out/r_out_ready_s ;
  wire \u_tile/u_link_out/w_code[0] ;
@@ -343385,7 +343385,7 @@ module TPU7083 (CLK_N_PAD,
     .VSS(VSS));
  sg13cmos5l_nor2_1 \u_tile/u_link_out/_143_  (.A(\u_tile/u_link_out/net1 ),
     .B(\u_tile/u_link_out/net2 ),
-    .Y(\u_tile/u_link_out/invert_group$func$/home/jalcim/rtl-runs/puce7t-sig-dc9d79ee-11081356/rtl/9_link_out.v:112$97.$result[0] ),
+    .Y(\u_tile/u_link_out/invert_group$func$9_link_out.v:112$97.$result[0] ),
     .VDD(VDD),
     .VSS(VSS));
  sg13cmos5l_o21ai_1 \u_tile/u_link_out/_144_  (.B1(\u_tile/u_link_out/net35099 ),
@@ -344142,7 +344142,7 @@ module TPU7083 (CLK_N_PAD,
  sg13cmos5l_dfrbpq_1 \u_tile/u_link_out/_273_  (.RESET_B(\u_tile/net2384 ),
     .VSS(VSS),
     .VDD(VDD),
-    .D(\u_tile/u_link_out/invert_group$func$/home/jalcim/rtl-runs/puce7t-sig-dc9d79ee-11081356/rtl/9_link_out.v:112$97.$result[0] ),
+    .D(\u_tile/u_link_out/invert_group$func$9_link_out.v:112$97.$result[0] ),
     .Q(w_dbi_out),
     .CLK(\clknet_1_0__leaf_u_tile/u_link_out/_126_ ));
  sg13cmos5l_dfrbpq_1 \u_tile/u_link_out/_274_  (.RESET_B(\u_tile/net2346 ),

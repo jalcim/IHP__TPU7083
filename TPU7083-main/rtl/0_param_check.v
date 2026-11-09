@@ -45,7 +45,7 @@
  * des coupes du jeu les veut non nulles en tête, strictement croissantes, de 1 à L_CSA - 1, au nombre
  * de STAGES - 1, L_CSA calculé ici comme mac_csa le calcule. mac_csa tient aussi cette règle lui-même,
  * le rejeu de rtl/pnr/pnr_bloc.py synthétisant 6_mac.v sans param_check.
- * Corrigé le 27/10/2026 (tâche 2 du plan A10) : MAC_MODEL = 3, le multiplieur S4xU4 de Yann Guidon en portes, a sa
+ * MAC_MODEL = 3, le multiplieur S4xU4 de Yann Guidon en portes, a sa
  * branche sous l'arbre 3:2, et L_CSA suit son profil, un bit par terme dans chaque colonne de 0 à BA + BW − 1 et la
  * constante (−2^(BA + BW − 1) × 9 C) mod 2^CSA_W. */
 

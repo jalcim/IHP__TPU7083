@@ -1,4 +1,4 @@
-// Parametres de la puce 7t (VERILOG_DEFINES du run de signature, hexeract dc9d79ee)
+// Parametres de la puce TPU7083
 `define TILE_C 12
 `define TILE_K 1
 `define TILE_G 6

@@ -50,8 +50,7 @@
  * sans usage : ⑦ ne lit que les K G_PASS premiers canaux, G_PASS tiré de o_done_stride1.
  * Hors variante G1, G_PASS vaut G = G_MAX à toute fenêtre, i_acc_stride1 est ignoré et o_done_stride1 vaut 0.
  *
- * La somme replie sur ACC bits, filtre par filtre, comme _wrap de l'oracle
- * (asic.py du projet nebula-repvgg-conformance, hors de ce dépôt) :
+ * La somme replie sur ACC bits, filtre par filtre, comme le modèle de référence :
  * ni saturation ni bit de garde. Seuls les deux compteurs et acc_done ont un reset : l'anneau, la
  * tête, la capture et le pas tenu sont réécrits avant tout usage, la première tranche ignorant ce qu'elle lit.
  * UPD_REST et ENTRY_DELAY ne sont pas des réglages : ce sont les constantes du contrat,

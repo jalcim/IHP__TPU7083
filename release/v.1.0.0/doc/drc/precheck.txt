@@ -1,0 +1,11 @@
+IHP minimum DRC precheck of the released GDS
+
+GDS: release/v.1.0.0/gds/TPU7083.gds.gz, top cell TPU7083
+SHA-256 of TPU7083.gds: a95126420c26e4c5353246e6f81cb73b9be241bee263829b9a6098f3d6dc299e
+SHA-256 of TPU7083.gds.gz: 7403fe1de9065c6b35bce02fcca796cb454f13159d20bfac8923ab33313be4d8
+PDK: IHP-Open-PDK, ihp-sg13cmos5l, revision 7bbb4b5a5b64c446fedc64eacadc33fa65ade276
+KLayout: 0.30.12
+Command: run_drc.py --path=TPU7083.gds --topcell=TPU7083 --minimum_drc
+Checks: main and density
+Result: 0 violations (KLayout DRC Check Passed), 0 items in TPU7083_minimum_drc.lyrdb
+Run time: 975.89 s

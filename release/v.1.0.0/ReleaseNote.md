@@ -12,6 +12,10 @@ First submission for the IHP Open-Silicon MPW run of November 2026 (SG13CMOS5L).
 
 ## Checks
 
-- LVS with Netgen: circuits match uniquely
-- Setup slack: +0.549 ns typical, +0.650 ns fast, -0.617 ns slow. Hold met at all three corners.
-- IHP minimum DRC precheck, main and density checks: 0 violations, run on the original GDS (md5 154b7c1f430dc31406e8b27b2824e5ad, top cell chip_top). Only the top cell name differs in the released file.
+- IHP minimum DRC precheck of the released GDS, main and density checks: 0 violations, see doc/drc/precheck.txt
+
+## Seal ring text
+
+The seal ring text on layer 63/0 reads "Calculated area: 5.4e-06 sq mm" and "PDK version: Unknown".
+Both strings come from the seal ring PCell of the PDK. The area is given in square metres, which is 5.41 mm2, and the PDK revision is the one in doc/info.json.
+The GDS is not modified.

@@ -27,8 +27,8 @@
  *
  * POLARITÉ. Câblage droit, sans inverseur : le plot d'entrée d'IHP rend p2c = pad (function "pad" de sa Liberty), et
  * rtl/1_link_in.v prend chaque demi-cycle au front montant de son propre plot, CLK_P vers i_clk_in pour le premier,
- * CLK_N vers i_clk_in_n pour le second. Les anneaux croisés et les données inversées du câblage de Lionel supposent
- * un plot qui inverse, et ne valent que pour lui (question 3 de la MR !9 de hexeract, relayée le 30/10).
+ * CLK_N vers i_clk_in_n pour le second. Les anneaux croisés et les données inversées du câblage supposent
+ * un plot qui inverse, et ne valent que pour lui.
  *
  * RAILS. IO_PAIRS paires IOVDD et IOVSS, une par 12 signaux (règle 4 de ring.py, ring.tcl:75-81), et CHIP_CORE_PAIRS
  * paires VDD et VSS du cœur, trois par défaut comme ring.CORE_PAIRS. Plots de rails et logo sous (* keep *), aucune
