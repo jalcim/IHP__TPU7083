@@ -4,19 +4,18 @@
   "technology": "IHP",
   "unique_id": "7083",
   "license": "Apache-2.0",
-  "trl": 0,
-  "sealring_x": 1.0,
-  "sealring_y": 1.0,
-  "repository": "",
+  "trl": 4,
+  "repository": "https://github.com/jalcim/IHP__TPU7083",
   "pdk_version": "7bbb4b5a5b64c446fedc64eacadc33fa65ade276",
   "process": "SG13CMOS5L",
   "dependencies": {},
-  "tools": {},
+  "tools": {
+    "layout": "KLayout"
+  },
   "top_cell_name": "decapd55_16",
   "release": {
     "version": "v.1.0.0",
-    "gds": "release/v.1.0.0/gds",
-    "netlist": "release/v.1.0.0/netlist",
+    "gds": "release/v.1.0.0/gds/decapd55_16.gds",
     "doc": "release/v.1.0.0/doc"
   }
 }
