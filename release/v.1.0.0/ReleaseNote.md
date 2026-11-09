@@ -7,12 +7,15 @@ First submission for the IHP Open-Silicon MPW run of November 2026 (SG13CMOS5L).
 - gds/TPU7083.gds.gz, single top cell TPU7083
   - SHA-256 of TPU7083.gds: a95126420c26e4c5353246e6f81cb73b9be241bee263829b9a6098f3d6dc299e
   - SHA-256 of TPU7083.gds.gz: 7403fe1de9065c6b35bce02fcca796cb454f13159d20bfac8923ab33313be4d8
-- netlist/TPU7083.spice, LVS netlist extracted from the layout
+- netlist/TPU7083.spice, netlist extracted from the layout with Magic.
+  Standard cells appear as empty black-box subcircuits, without transistors. No LVS report is included.
 - netlist/TPU7083.nl.v and netlist/TPU7083.pnl.v, gate-level netlists
 
 ## Checks
 
-- IHP minimum DRC precheck of the released GDS, main and density checks: 0 violations, see doc/drc/precheck.txt
+- IHP minimum DRC precheck of the released GDS, main and density checks: 0 violations, see doc/drc/precheck.txt.
+  The run log and the density log are in doc/drc/ as well.
+- The full DRC deck (run_drc.py without --minimum_drc) has not been run on the released GDS yet.
 
 ## Seal ring text
 

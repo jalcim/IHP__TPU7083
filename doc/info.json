@@ -11,17 +11,27 @@
   "pdk_version": "7bbb4b5a5b64c446fedc64eacadc33fa65ade276",
   "process": "SG13CMOS5L",
   "dependencies": {
-    "bondpad_70x70_5L": { "dependencies": {} },
-    "logo_nebula": { "dependencies": {} },
-    "decapd55_32": { "dependencies": {} },
-    "decapd55_16": { "dependencies": {} },
-    "decapd55_8": { "dependencies": {} }
+    "bondpad_70x70_5L": {
+      "dependencies": {}
+    },
+    "logo_nebula": {
+      "dependencies": {}
+    },
+    "decapd55_32": {
+      "dependencies": {}
+    },
+    "decapd55_16": {
+      "dependencies": {}
+    },
+    "decapd55_8": {
+      "dependencies": {}
+    }
   },
   "tools": {
     "synthesis": "Yosys",
     "pnr": "OpenROAD",
     "flow": "LibreLane 3.0.17",
-    "drc": "KLayout",
+    "drc": "KLayout 0.30.12",
     "lvs": "Netgen"
   },
   "top_cell_name": "TPU7083",

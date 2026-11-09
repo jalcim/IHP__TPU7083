@@ -15,7 +15,7 @@ Tensor processing chip from Nebula Microsystems, submitted to the IHP Open-Silic
 ## Contents
 
 - release/v.1.0.0/gds/TPU7083.gds.gz: final GDS, gzip compressed
-- release/v.1.0.0/netlist/TPU7083.spice: netlist extracted from the layout, used for LVS
+- release/v.1.0.0/netlist/TPU7083.spice: netlist extracted from the layout with Magic, standard cells as empty black-box subcircuits (no LVS report included)
 - release/v.1.0.0/netlist/TPU7083.nl.v and TPU7083.pnl.v: gate-level netlists, without and with power pins
 - TPU7083-main/rtl: Verilog sources, top module TPU7083 in TPU7083.v
 - dependencies: views of the macros listed above
